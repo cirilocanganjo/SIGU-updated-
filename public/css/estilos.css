@@ -1,0 +1,138 @@
+         /*cabecalho do formulario de login*/
+         .mensagem{
+             background-color:  #0d6dfd63;
+         }
+
+         .caixa-logo{
+             margin-top: -.2rem !important;
+         }
+
+         .imagem-logo {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+              
+         }
+
+         .imagem-logo img
+         {
+             width:60px;
+
+         }
+
+         .bg-primary {
+             background-color: #0d6efd !important;
+             box-shadow: 1px 1px 1px #0d6efd;
+         }
+         
+         .text-blue {
+             color: #0d6efd !important;
+             font-weight: 200 !important;
+         }
+         
+         #home-icon {
+             color: #0d6efd !important;
+         }
+         
+         .bg-light {
+             background-color: #ffff !important;
+         }
+         
+         #rememberMe:checked {
+             background-color: #0d6efd !important;
+         }
+         /* Estilização do rodapé */
+         
+         .rodape {
+             text-align: center !important;
+             color: #000;
+         }
+         /* Estilo dos inputs do form funcionários */
+         
+         .container {
+             display: flex;
+             flex-direction: column
+         }
+         
+         .flex-form {
+             display: flex;
+             margin-left: 3rem;
+             flex-wrap: wrap;
+         }
+         #btn-action{
+             margin-left: 3rem;
+         }
+
+        
+         
+         .flex-form>div {
+             margin-right: 1rem;
+         }
+         /*<Alterar estilo do framework*/
+         
+         .btn-primary:hover,
+         .btn-primary {
+             box-shadow: none;
+         }
+         
+         .ps__rail-y,
+         .ps__rail-x {
+             display: none !important;
+         }
+         
+         #btn-search {
+             border-radius: .2rem;
+             outline: none;
+             height: 2rem;
+             border: 1px solid #ccc;
+         }
+         
+         #btn-search:focus {
+             border: 1px solid #c2dbfe;
+         }
+         
+         .title {
+             text-align: center;
+             text-transform: uppercase;
+             font-family: Arial, Helvetica, sans-serif;
+         }
+         
+         #bg-image 
+         {
+              background-image: url("/assets/img/bg-pricing.jpg") !important;  
+            
+         }
+         /*Estilicao da dashoboard do estudante*/
+         /*cabecalho*/
+         
+         #menu {
+             color: #ffff !important;
+         }
+         /*logotipo*/
+         
+         #logo {
+             object-fit: cover;
+             width: 10px;
+         }
+         /*Cards Dashboard Estudante*/
+
+         /* Estilização da logo Unibelas na Dashboard Admin*/
+
+         .sidenav-header
+         {
+             display: flex;
+             flex-direction: column;
+         }
+         .sidenav-header img
+         {              
+             height: 40rem;
+         }
+          
+         /* Estilização do botão do formulário de login */
+         #botao-entrar
+         {
+            text-transform: capitalize;
+            font-weight: normal !important;
+            font-size: 17px !important;
+        }
